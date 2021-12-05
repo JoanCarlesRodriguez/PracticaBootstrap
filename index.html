@@ -15,45 +15,47 @@
 
 <body>
 
-  <header>
+  <header>      <!-- INICI HEADER -->
     <div class="container">
       <div class="row" style="background-color: rgb(226, 131, 131);">           <!--      LLEVAR FONDO!!        -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#">ICONO IES</a>
+            </button>        
             <img src="./img/ies.jpg" class="rounded float-start" alt="Logo IES" height="40px">
             <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo03">
               <ul class="nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Active</a>
+                  <a class="nav-link active" aria-current="page" href="index.html">Shop</a>
+                </li>
+                <li class="nav-item">                  
+                  <a class="nav-link" href="#">Company</a>                                                     
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                  <a class="nav-link" href="#">Blog</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                  <a class="nav-link" href="#">Support</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled">Disabled</a>
+                  <a class="nav-link" href="#">Contact</a>
                 </li>
               </ul>                         
             </div>
-            <div class="justify-content-end">
-              <ul class="nav navbar-nav me-auto mb-2 mb-lg-0">     <!--  REVISAR QUE FA navbar-nav me-auto mb-2 mb-lg-0-->
-                <li class="nav-item">
+            <div class="justify-content-end ">
+              <ul class="nav">
+                <li class="nav-item mx-2">
                   <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                   </svg>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-2">
                   <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
                     <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
                   </svg>
                 </li>
-                <li class="nav-item">            
+                <li class="nav-item mx-2">            
                   <a href="carro.html">             <!-- AQUI NO HA D'ANAR A CARRO.HTML HA DE FER UN Offcanvas -->
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
                         <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
@@ -65,10 +67,69 @@
           </div>
         </nav>
       </div>
-    </div>
-    
-    
-  </header>
+    </div>       
+  </header>     <!-- FINAL HEADER -->
+
+  <main>  <!-- INICI MAIN -->
+    <section>   <!-- INICI DESTACAT 1 -->
+      <div id="carouselExampleCaptions" class="carousel slide carousel-dark" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-block w-50 float-start flex-column d-flex align-items-center">    <!-- revisar flex-column d-flex align-items-center -->
+              <h1>Bon dia</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button>COMPRAME</button>
+            </div>
+            <img src="./img/destacada1.jpg" class="d-block w-50 float-end" alt="Foto destacat 1">     
+            <!-- He posat un float-end per posar sa foto a la dreta, puc posar start per es principi i sino pos res sa centra-->
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-block w-50 float-start flex-column d-flex align-items-center">    <!-- revisar flex-column d-flex align-items-center -->
+              <h1>Bon dia</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button>COMPRAME</button>
+            </div>
+            <img src="./img/destacada1.jpg" class="d-block w-50 float-end" alt="Foto destacat 1">     
+            <!-- He posat un float-end per posar sa foto a la dreta, puc posar start per es principi i sino pos res sa centra-->
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-block w-50 float-start flex-column d-flex align-items-center">    <!-- revisar flex-column d-flex align-items-center -->
+              <h1>Bon dia</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button>COMPRAME</button>
+            </div>
+            <img src="./img/destacada1.jpg" class="d-block w-50 float-end" alt="Foto destacat 1">     
+            <!-- He posat un float-end per posar sa foto a la dreta, puc posar start per es principi i sino pos res sa centra-->
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>  <!-- FINAL DESTACAT 1 -->
+
+    <section>   <!-- INICI DESTACAT 2 -->
+      
+    </section>  <!-- FINAL DESTACAT 2 -->
+
+  </main>
 
 
 
