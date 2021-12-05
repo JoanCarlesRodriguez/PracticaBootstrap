@@ -28,16 +28,15 @@
 // Create your own map    //ME CREA CLASES NOVES PER TOT
 $colors-personalitzats: (
   "iesmanacor": rgb(255, 136, 0),
-  "primary": rgb(81, 92, 138),   //Amb aixo modific sa classe primary de bootstrap per es color que jo vull i amb aixo totes ses seves variant
+  
+  "primary":    rgb(81, 92, 138),   //Amb aixo modific sa classe primary de bootstrap per es color que jo vull i amb aixo totes ses seves variant
   "secondary":  rgb(70, 146, 140),
   "success":    rgb(65, 153, 57),
   "info":       rgb(193, 133, 200),
   "warning":    rgb(144, 37, 37),
   "danger":     rgb(177, 174, 27),
   "light":      rgb(182, 182, 182),
-  "dark":       rgb(36, 36, 36)
-
-  
+  "dark":       rgb(36, 36, 36)  
 );
 
 // Merge the maps     //  AQUI AGREGAM ES COLOS PERSONALITZATS D'ABANS A SA LLISTA
