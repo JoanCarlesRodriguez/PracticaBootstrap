@@ -17,6 +17,7 @@ var modal = new bootstrap.Modal(myModal,{
     backdrop: 'static'
 });
 
-document.querySelector("#botoModal").addEventListener('click', function () {
+document.querySelector(".botoModal").addEventListener('click', function () {
     modal.show();
 });
+
