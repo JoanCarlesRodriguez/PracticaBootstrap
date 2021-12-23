@@ -41,9 +41,10 @@ $colors-personalitzats: (
 
 // Merge the maps     //  AQUI AGREGAM ES COLOS PERSONALITZATS D'ABANS A SA LLISTA
 $theme-colors: map-merge($theme-colors, $colors-personalitzats);
-$theme-colors-rgb: map-merge($theme-colors-rgb,$colors-personalitzats);
+//$theme-colors-rgb: map-merge($theme-colors-rgb,$colors-personalitzats);
 //$utilities-bg-colors: map-merge($utilities-bg-colors, $colors-personalitzats);
 //$utilities-text-colors: map-merge($utilities-text-colors, $colors-personalitzats);
+//HE COMENTAT ES 3 PQ NO ME FUNCIONA BE SI ELS POS TOTS I NO HE TROBAT SA FORMA DE FER-HO A SA MEVA MANERA
 
 
 

@@ -17,9 +17,9 @@
 
   <header>      <!-- INICI HEADER -->
     <div class="container">
-      <div class="row" style="background-color: rgb(226, 131, 131);">           <!--      LLEVAR FONDO!!        -->
+      <div class="row">           <!--      LLEVAR FONDO!!        -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
+          <div class="container-fluid text-dark">
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#indexDesplegable" aria-controls="indexDesplegable">
                 <span class="navbar-toggler-icon"></span>
             </button>        
@@ -27,19 +27,19 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo03">
               <ul class="nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Shop</a>
+                  <a class="nav-link text-dark fw-bold active" aria-current="page" href="index.html">Shop</a>
                 </li>
                 <li class="nav-item">                  
-                  <a class="nav-link" href="#">Company</a>                                                     
+                  <a class="nav-link text-dark fw-bold" href="#">Company</a>                                                     
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
+                  <a class="nav-link text-dark fw-bold" href="#">Blog</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Support</a>
+                  <a class="nav-link text-dark fw-bold" href="#">Support</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link text-dark fw-bold" href="#">Contact</a>
                 </li>
               </ul>                         
             </div>
@@ -57,9 +57,11 @@
                 </li>
                 <li class="nav-item mx-2">            
                   <a href="#" data-bs-toggle="offcanvas" data-bs-target="#carroCompra" aria-controls="carroCompra">             
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3 text-dark" viewBox="0 0 16 16">
                         <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
                     </svg>
+                    <span class="position-absolute top-10 start-90 translate-middle badge rounded-pill bg-primary">2</span>
+                    
                   </a>
                 </li>                
               </ul>
@@ -92,7 +94,7 @@
             <div class="d-block w-50 float-start flex-column d-flex  align-items-center  position-absolute top-50 start-0">    <!-- revisar flex-column d-flex align-items-center -->
               <h5>Bon dia</h5>
               <p class="fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <button class="btn btn-warning btn-sm">COMPRAME</button>
+              <button class="btn btn-iesmanacor btn-sm">COMPRAME</button>
             </div>
             <img src="./img/destacada1.jpg" class="d-block w-50 float-end" alt="Foto destacat 1">     
             <!-- He posat un float-end per posar sa foto a la dreta, puc posar start per es principi i sino pos res sa centra-->
@@ -105,7 +107,7 @@
             <div class="d-block w-50 float-start flex-column d-flex  align-items-center  position-absolute top-50 start-0">    <!-- revisar flex-column d-flex align-items-center -->
               <h5 class="fs-6">Bon dia</h5>
               <p class="fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <button class="btn btn-warning btn-sm">COMPRAME</button>
+              <button class="btn btn-iesmanacor btn-sm">COMPRAME</button>
             </div>
             <img src="./img/destacada1.jpg" class="d-block w-50 float-end" alt="Foto destacat 1">     
             <!-- He posat un float-end per posar sa foto a la dreta, puc posar start per es principi i sino pos res sa centra-->
@@ -118,7 +120,7 @@
             <div class="d-block w-50 float-start flex-column d-flex  align-items-center  position-absolute top-50 start-0">    <!-- revisar flex-column d-flex align-items-center -->
               <h5>Bon dia</h5>
               <p class="fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <button class="btn btn-warning btn-sm">COMPRAME</button>
+              <button class="btn btn-iesmanacor btn-sm">COMPRAME</button>
             </div>
             <img src="./img/destacada1.jpg" class="d-block w-50 float-end" alt="Foto destacat 1">     
             <!-- He posat un float-end per posar sa foto a la dreta, puc posar start per es principi i sino pos res sa centra-->
@@ -142,12 +144,12 @@
         <br>
 
     <section>   <!-- INICI DESTACAT 2 -->
-      <div class="container" style="background-color: rgba(165, 42, 42, 0.438);">
+      <div class="container">
           <div class="row position-relative">
             <div class="position-absolute top-50 start-0 ms-2">
               <h1 class="fs-6">Bon dia</h1>
-              <p class="fs-6">Duis lacus neque, dignissim in imperdiet ut, congue eu purus. </p>
-              <button class="btn btn-warning btn-sm">COMPRAME</button> 
+              <p class="fs-6 text-white">Duis lacus neque, dignissim in imperdiet ut, congue eu purus. </p>
+              <button class="btn btn-iesmanacor btn-sm">COMPRAME</button> 
             </div>
             
             <img src="./img/destacada2.jpg" class="img-fluid" alt="Foto destacat 2">
@@ -162,8 +164,13 @@
 
         <div class="row">
           <div class="col-6 col-lg-3">
-            <div class="card">
-              <br>
+            <div class="card">              
+              <div class="position-absolute top-0 end-0  bg-danger w-25 text-center">SALE</div>
+              <div class="position-absolute top-0 start-0 w-25 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                </svg>
+              </div>
               <a data-bs-toggle="modal" data-bs-target="#modalIES"><img src="./img/sabata1-1.jpeg" class="card-img-top" alt="..."></a>
               <div class="card-body">
                 <h5 class="card-title">Nike model-100</h5>
@@ -175,7 +182,12 @@
           </div>
           <div class="col-6 col-lg-3">
             <div class="card">
-              <br>
+              <div class="position-absolute top-0 end-0 bg-info w-25 text-center">NEW</div>
+              <div class="position-absolute top-0 start-0 w-25 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                </svg>
+              </div>
               <a data-bs-toggle="modal" data-bs-target="#modalIES"><img src="./img/sabata2-1.jpeg" class="card-img-top" alt="..."></a>
               <div class="card-body">
                 <h5 class="card-title">Nike model-200</h5>
@@ -187,7 +199,12 @@
           </div>
           <div class="col-6 col-lg-3">
             <div class="card">
-              <br>
+              <div class="position-absolute top-0 end-0 bg-info w-25 text-center">NEW</div>
+              <div class="position-absolute top-0 start-0 w-25 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                </svg>
+              </div>
               <img src="./img/sabata3-1.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Nike model-300</h5>
@@ -199,7 +216,12 @@
           </div>
           <div class="col-6 col-lg-3">
             <div class="card">
-              <br>
+              <div class="position-absolute top-0 end-0  bg-danger w-25 text-center">SALE</div>
+              <div class="position-absolute top-0 start-0 w-25 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                </svg>
+              </div>
               <a data-bs-toggle="modal" data-bs-target="#modalIES"><img src="./img/sabata1-1.jpeg" class="card-img-top" alt="..."></a>
               <div class="card-body">
                 <h5 class="card-title">Nike model-100</h5>
@@ -211,7 +233,12 @@
           </div>
           <div class="col-6 col-lg-3">
             <div class="card">
-              <br>
+              <div class="position-absolute top-0 end-0  bg-danger w-25 text-center">SALE</div>
+              <div class="position-absolute top-0 start-0 w-25 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                </svg>
+              </div>
               <a data-bs-toggle="modal" data-bs-target="#modalIES"><img src="./img/sabata1-1.jpeg" class="card-img-top" alt="..."></a>
               <div class="card-body">
                 <h5 class="card-title">Nike model-100</h5>
@@ -223,7 +250,12 @@
           </div>
           <div class="col-6 col-lg-3">
             <div class="card">
-              <br>
+              <div class="position-absolute top-0 end-0 bg-info w-25 text-center">NEW</div>
+              <div class="position-absolute top-0 start-0 w-25 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                </svg>
+              </div>
               <a data-bs-toggle="modal" data-bs-target="#modalIES"><img src="./img/sabata2-1.jpeg" class="card-img-top" alt="..."></a>
               <div class="card-body">
                 <h5 class="card-title">Nike model-200</h5>
@@ -235,7 +267,12 @@
           </div>
           <div class="col-6 col-lg-3">
             <div class="card">
-              <br>
+              <div class="position-absolute top-0 end-0  bg-danger w-25 text-center">SALE</div>
+              <div class="position-absolute top-0 start-0 w-25 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                </svg>
+              </div>
               <a data-bs-toggle="modal" data-bs-target="#modalIES"><img src="./img/sabata3-1.jpeg" class="card-img-top" alt="..."></a>
               <div class="card-body">
                 <h5 class="card-title">Nike model-300</h5>
@@ -247,7 +284,12 @@
           </div>
           <div class="col-6 col-lg-3">
             <div class="card">
-              <br>
+              <div class="position-absolute top-0 end-0 bg-info w-25 text-center">NEW</div>
+              <div class="position-absolute top-0 start-0 w-25 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                </svg>
+              </div>
               <a data-bs-toggle="modal" data-bs-target="#modalIES"><img src="./img/sabata1-1.jpeg" class="card-img-top" alt="..."></a>
               <div class="card-body">
                 <h5 class="card-title">Nike model-100</h5>
@@ -260,93 +302,8 @@
         </div>
 
         
-        --------------------------------------------------------------
-        <!--
-        <div class="row d-flex justify-content-between flex-wrap">
-          <div class="card" style="width: 18rem;">
-            <br>
-            <img src="./img/sabata1-1.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Nike model-100</h5>
-              <h5 class="card-subtitle mb-2 text-muted">150€</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalIES">Comprame</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <br>
-            <img src="./img/sabata2-1.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Nike model-200</h5>
-              <h5 class="card-subtitle mb-2 text-muted">150€</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalIES">Comprame</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <br>
-            <img src="./img/sabata3-1.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Nike model-300</h5>
-              <h5 class="card-subtitle mb-2 text-muted">150€</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalIES">Comprame</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <br>
-            <img src="./img/sabata4-1.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Nike model-400</h5>
-              <h5 class="card-subtitle mb-2 text-muted">150€</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalIES">Comprame</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <br>
-            <img src="./img/sabata1-1.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Nike model-100</h5>
-              <h5 class="card-subtitle mb-2 text-muted">150€</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalIES">Comprame</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <br>
-            <img src="./img/sabata2-1.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Nike model-200</h5>
-              <h5 class="card-subtitle mb-2 text-muted">150€</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalIES">Comprame</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <br>
-            <img src="./img/sabata3-1.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Nike model-300</h5>
-              <h5 class="card-subtitle mb-2 text-muted">150€</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalIES">Comprame</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <br>
-            <img src="./img/sabata4-1.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Nike model-400</h5>
-              <h5 class="card-subtitle mb-2 text-muted">150€</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalIES">Comprame</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      -->
-        --------------------------------------------------------------
+    
+        
       <!-- MODAL Producte -->
       <div class="modal fade" id="modalIES" data-bs-backdrop="static" tabindex="-1" aria-labelledby="modalIES" aria-hidden="true">
         <div class="modal-dialog modal-xl">
@@ -481,7 +438,7 @@
               </div>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-iesmanacor" data-bs-dismiss="modal">Close</button>
               <button type="button" class="btn btn-success">Comprar</button>
             </div>
           </div>
@@ -489,17 +446,25 @@
       </div>    <!-- FINAL MODAL -->
       
     </section>    <!-- FINAL TENDA -->
+    
+    <br>
 
     <section>     <!-- INICI OPINIO -->
-      <div class="container">
-        <div class="row" style="background-color: rgb(202, 138, 138)">                   
+      <div class="container bg-secondary bg-gradient bg-opacity-10" >
+        <div class="row">
+          <h3 class="text-center">Alguns clients opinen ...</h3>
+        </div>
+        <div class="row">
+          <p class="text-center">orem ipsum dolor sit amet, consectetuer adipiscing</p>
+        </div>
+        <div class="row">                   
 
-          <div class="col-sm-2 col-md-2 col-lg-2 d-flex align-items-center"><!--Fletxes-->
+          <div class="col-2 col-sm-2 col-md-2 col-lg-2 d-flex align-items-center"><!--Fletxes-->
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left-square" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm11.5 5.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
             </svg>
           </div>
-          <div class="mt-2 col-sm-8 col-md-4 col-lg-2"><!-- 1r Comentari-->
+          <div class="mt-2 col-8 col-sm-8 col-md-4 col-lg-2"><!-- 1r Comentari-->
             <div class="">   
               <div class="d-flex justify-content-center">
                 <img class="rounded-circle " src="./img/opinio.jpeg" height="150px">
@@ -600,7 +565,7 @@
             </div>
           </div>
 
-          <div class="col-sm-2 col-md-2 col-lg-2 d-flex align-items-center justify-content-end"><!--Fletxes-->
+          <div class="col-2 col-sm-2 col-md-2 col-lg-2 d-flex align-items-center justify-content-end"><!--Fletxes-->
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-square" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
             </svg>
@@ -622,7 +587,7 @@
             </svg>
           </div>
         </div>
-
+        <br>
       </div>
     </section>    <!-- FINAL OPINIO -->
   </main>
@@ -775,28 +740,20 @@
 
   
   <!-- 
-    - SEMBLA QUE ES TEXT DE COLORS NO FUNCIONA BE, A SA LINEA 3300 aprox M'HO APLICA, PERO A SA 14450 aprox M'HO LLEVA
-                    <p class="text-danger bg-dark">.text-danger</p>
-
-    - Es WRAP per es CARDS al fer molt petit me queda a un, nse controlar-ho, supos que es amb un nowrap-lg o algo similar. Investigar
     
-    - Es bg-success i diferents colors no funcionen tmp
 
     -ses validacions de JS per fer valid-tooltip no me deixa. Pero funciona ara
     - Linea 780   Aquest script si el pos a custom.js no me funciona, pero aqui dins si. No entenc pq
 
     - Ses talles des Modal, al fer-ho rodo no queda 100%
-    - S'input de quantitat esta mes a l'esquerra que la resta i te es mateix padding
-    
-    -Modificar TOTS ES BOTONS per btn-IESMANACOR
 
   -->
 
 
   <footer>
-    <div class="container" style="background-color: rgba(170, 62, 62, 0.541);">
+    <div class="container bg-dark">
       <footer class="pt-4">
-        <div class="row">
+        <div class="row text-light">
           <div class="col-md-2">
             <img src="./img/ies.jpg" class="rounded float-start" alt="Logo IES" height="40px">
           </div>
@@ -845,37 +802,37 @@
               <p>Monthly digest of whats new and exciting from us.</p>
               <div class="d-flex w-100 gap-2">
                 <label for="newsletter1" class="visually-hidden">Email address</label>
-                <input id="newsletter1" type="email" class="form-control" placeholder="Email address" required>        
+                <input id="newsletter1" type="email" class="form-control" placeholder="Email address" required>
+                <button class="btn btn-iesmanacor" type="submit">Subscribe</button>        
                 <div class="invalid-feedback">
                   Per favor, posa un correu
-              </div>
-                <button class="btn btn-primary" type="submit">Subscribe</button>                
+                </div>                                
               </div>
               
             </form>
           </div>
         </div>
     
-        <div class="d-flex justify-content-between pt-2 mt-4 border-top">
+        <div class="d-flex justify-content-between pt-2 mt-4 border-top text-light">
           <p>© 2021 Joan Carles R.S. All rights reserved.</p>
           <ul class="list-unstyled d-flex">
             <li class="ms-3">
               <a class="link-dark" href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter text-light" viewBox="0 0 16 16">
                   <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
                 </svg>
               </a>
             </li>
             <li class="ms-3">
               <a class="link-dark" href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram text-light" viewBox="0 0 16 16">
                   <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
                 </svg>
               </a>
             </li>
             <li class="ms-3">
               <a class="link-dark" href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook text-light" viewBox="0 0 16 16">
                   <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
                 </svg>
               </a>
